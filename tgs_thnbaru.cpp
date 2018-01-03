@@ -58,5 +58,23 @@ int main(){
 	double RWa1c[5]={ (Ra1c[0]*w1),(Ra1c[1]*w2),(Ra1c[2]*w3),(Ra1c[3]*w4),(Ra1c[4]*w5) };
 	double RWa2c[5]={ (Ra2c[0]*w1),(Ra2c[1]*w2),(Ra2c[2]*w3),(Ra2c[3]*w4),(Ra2c[4]*w5) };
 	double RWa3c[5]={ (Ra3c[0]*w1),(Ra3c[1]*w2),(Ra3c[2]*w3),(Ra3c[3]*w4),(Ra3c[4]*w5) };
+
+	cout << endl<<endl;
+		cout << "MATRIX R * W :"<<endl;
+	int ferari1=0;
+	do{
+		cout << RWa1c[ferari1]<<" | ";
+		ferari1++;
+	}while(ferari1<5);cout<<endl;
+		int ferari2=0;
+	do{
+		cout << RWa2c[ferari2]<<" | ";
+		ferari2++;
+	}while(ferari2<5);cout<<endl;
+		int ferari3=0;
+	do{
+		cout << RWa3c[ferari3]<<" | ";
+		ferari3++;
+	}while(ferari3<5);cout<<endl;
 }
 
