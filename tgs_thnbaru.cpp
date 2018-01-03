@@ -33,5 +33,23 @@ int main(){
 	double Ra1c[5]={ (a1c[0]/mc1),(a1c[1]/mc2),(a1c[2]/mc3),(a1c[3]/mc4),(a1c[4]/mc5) };
 	double Ra2c[5]={ (a2c[0]/mc1),(a2c[1]/mc2),(a2c[2]/mc3),(a2c[3]/mc4),(a2c[4]/mc5) };
 	double Ra3c[5]={ (a3c[0]/mc1),(a3c[1]/mc2),(a3c[2]/mc3),(a3c[3]/mc4),(a3c[4]/mc5) };
+
+		cout << endl<<endl;
+		cout << "MATRIX R :"<<endl;
+	int nascar1=0;
+	do{
+		cout << Ra1c[nascar1]<<" | ";
+		nascar1++;
+	}while(nascar1<5);cout<<endl;
+		int nascar2=0;
+	do{
+		cout << Ra2c[nascar2]<<" | ";
+		nascar2++;
+	}while(nascar2<5);cout<<endl;
+		int nascar3=0;
+	do{
+		cout << Ra3c[nascar3]<<" | ";
+		nascar3++;
+	}while(nascar3<5);cout<<endl;
 }
 
